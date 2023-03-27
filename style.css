@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(103, 34, 126, 0.5);
+    /* position: sticky; */
+    top: 0;
+}
+.navbar ul{
+    /* display: flex; */
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;  
+    /* color: white; */
+    padding: 1px 80px;   
+    background-color: non;
+}
+/* home  */
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(img1.jpg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}   
+
+.headings{
+    font-family: century;
+    font-size: 2rem;
+    position: sticky;
+    margin: 150px 150px;
+}
+
+/* about */
+.btn{
+ border-radius: 25px; 
+ color: antiquewhite;
+ padding: 2% !important;
+}
+.btn:hover{
+    background-position: right bottom;
+    background-color: crimson;
+}
+
+/* WHAT SERVICES WE PROVIDE */
+.headingss{
+    text-align: center;
+    font-size:3rem;
+}
+
+.text{
+    color: aliceblue;
+   margin-bottom: 50%;
+}
+.textss{
+    color: aliceblue;
+    margin-bottom: 50%;
+}
+.services{
+    background-color: #e49dcd;
+    padding-top: 40px; 
+    padding-bottom: 100px; 
+}
+
+.latestworks{
+  display: flex;
+  background-color:  #362641;
+  color: aliceblue;
+  padding-bottom: 70px;
+
+}
+.texts{
+    color: rgb(167, 167, 79);
+    font-family: century;
+    font-size: 3rem;
+}
+.textS{
+    color:  #e49dcd;   
+}
+.textSS{
+    font-size: 1.5rem;
+}
+.font{
+    margin-top: 8%;
+}
+
+/* meet-the-team */
+.meet-the-team{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+
+#contact{
+   padding-bottom: 70px;
+   
+}
+.heading{
+    color: #e49dcd;
+    text-align: center;
+    padding-top: 4%;
+}
+.head{
+    text-align: center;
+    padding-top: 2%;  
+}
+
+.form{
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+.txt{
+    margin: 10%;
+}
+
+
+.foter{
+    display: flex;
+    padding-bottom: 10px;
+    color: white;
+    background-color:  #362641;
+   
+}
+
+.imgh{
+    padding-top: 100px;
+    /* height: fit-content;
+    width: inherit; */
+}
+.symbole{
+    margin-left: 25px;
+    padding-top: 30px;
+   
+}
+
+
+
+
+
+
+
+
+
+
